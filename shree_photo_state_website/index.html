@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Shree Photo State & CSC, Badhouli Chowk Robertsganj Sonbhadra — photocopy, printing, passport photo, Aadhaar enabled services, online forms and digital services.">
+  <title>Shree Photo State &amp; CSC | Digital Seva • Photo • Print</title>
+  <style>
+    :root{--bg:#fff2a8;--panel:#fff9d9;--panel2:#fff4bd;--line:rgba(111,76,0,.22);--text:#211900;--muted:#62552b;--cyan:#006f91;--blue:#174ea6;--gold:#e49a00;--green:#087c50}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 85% 0%,#ffe16a 0,transparent 35%),radial-gradient(circle at 0% 55%,#fff8d4 0,transparent 34%),linear-gradient(135deg,#fff6c9 0%,#ffdf55 52%,#fff0a3 100%);color:var(--text);font-family:'Trebuchet MS','Segoe UI',Arial,sans-serif;line-height:1.7}
+    a{color:inherit;text-decoration:none}.container{width:min(1160px,92%);margin:auto}
+    .topline{height:3px;background:linear-gradient(90deg,var(--cyan),var(--blue),#9b59ff,var(--gold))}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,248,213,.94);backdrop-filter:blur(16px);border-bottom:1px solid #b88a1d66;box-shadow:0 5px 22px #80600018}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.2px}.brand img{width:52px;height:52px;object-fit:contain;border-radius:50%;background:#fff}
+    .brand small{display:block;color:var(--cyan);font-size:11px;letter-spacing:2px;font-weight:700}
+    nav{display:flex;gap:22px;align-items:center;color:#40320a;font-size:14px;font-weight:800;letter-spacing:.35px}nav a:hover{color:var(--cyan)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:10px;background:linear-gradient(110deg,#147bff,#14bdd6);color:#fff;font-weight:800;border:1px solid rgba(255,255,255,.16);box-shadow:0 8px 28px #0878ff30;transition:.2s}
+    .btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.btn.outline{background:transparent;border:1px solid #39c9ee;color:#bfefff;box-shadow:none}
+    .hero{padding:76px 0 64px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:440px;height:440px;border:1px solid #38cfff20;border-radius:50%;right:-120px;top:20px;box-shadow:0 0 0 35px #38cfff08,0 0 0 75px #38cfff05;pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center;position:relative;z-index:1}
+    .eyebrow{color:#075a78;font-weight:900;letter-spacing:2.5px;text-transform:uppercase;font-size:12px}
+    h1{font-family:Georgia,'Trebuchet MS',serif;font-size:clamp(40px,6.2vw,72px);font-weight:900;line-height:1.08;margin:14px 0 18px;letter-spacing:-1.8px;text-shadow:0 3px 0 #ffffff80}h1 span{background:linear-gradient(90deg,#064d78,#087c91 55%,#9a5b00);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{color:var(--muted);font-size:18px;max-width:650px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+    .trust{display:flex;gap:20px;flex-wrap:wrap;color:#c1cde0;font-size:13px}.trust span:before{content:"✦";color:var(--green);margin-right:7px}
+    .hero-card{background:linear-gradient(145deg,#fffdf0,#fff0ae);border:1px solid #b88a1d80;border-radius:22px;padding:26px;box-shadow:0 25px 65px #6d4b0028;position:relative}
+    .hero-card .main-logo{width:100%;max-width:290px;height:220px;object-fit:contain;display:block;margin:auto;background:#fff;border-radius:16px;padding:12px}
+    .logo-row{display:flex;justify-content:center;gap:14px;margin-top:16px}.logo-row img{width:46%;height:75px;object-fit:contain;background:#fff;border-radius:10px;padding:7px}
+    .id-chip{margin-top:18px;padding:12px 15px;border:1px solid #36d9ff55;border-radius:12px;background:#0a1b2b;text-align:center;color:#cdefff;font-size:14px}.id-chip strong{color:var(--cyan);letter-spacing:1px}
+    section{padding:66px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 34px}.section-head h2{font-family:Georgia,'Trebuchet MS',serif;font-size:clamp(30px,4.2vw,44px);font-weight:900;letter-spacing:.2px;margin:8px 0;color:#342500;text-shadow:0 2px 0 #fff8d5}.section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{background:linear-gradient(145deg,#fffdf0,#fff4c7);border:1px solid #b88a1d55;border-radius:16px;padding:20px;min-height:150px;transition:.2s;box-shadow:0 8px 22px #79580012}.service:hover{transform:translateY(-4px);border-color:#38cfff80;box-shadow:0 15px 35px #0005}
+    .service .ico{font-size:25px}.service h3{margin:9px 0 4px;font-size:18px;font-weight:900;letter-spacing:.15px;color:#182b43}.service p{margin:0;color:var(--muted);font-size:13px}
+    .band{background:linear-gradient(100deg,#f3c52f,#ffe88b);border-block:1px solid #b88a1d66}.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.feature{padding:18px;border-radius:14px;background:#fff8d9;border:1px solid #c49a2c66;text-align:center}.feature strong{display:block;font-size:17px}.feature span{color:var(--muted);font-size:12px}
+    .about-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}.glass{background:linear-gradient(145deg,#fffdf1,#fff3bd);border:1px solid #b88a1d66;border-radius:18px;padding:26px;box-shadow:0 12px 32px #79580018}.glass h3{margin-top:0;font-size:23px}.muted{color:var(--muted)}
+    .brand-logos{display:flex;gap:15px;align-items:center;justify-content:center;flex-wrap:wrap}.brand-logos img{width:45%;height:135px;object-fit:contain;background:#fff;border-radius:12px;padding:10px}
+    .contact-line{display:flex;gap:12px;margin:15px 0;align-items:flex-start}.contact-line b{display:block}.contact-line small{color:var(--muted)}
+    form{display:grid;gap:13px}label{font-size:13px;color:#d7e4f6;font-weight:700}input,select,textarea{width:100%;margin-top:6px;padding:13px 14px;background:#fffef7;border:1px solid #b99a43;border-radius:9px;color:#211900;font:inherit;outline:none}input:focus,select:focus,textarea:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #36d9ff18}textarea{min-height:110px;resize:vertical}
+    .form-note{font-size:12px;color:var(--muted);margin:0}.mapbox{width:100%;height:290px;border:0;border-radius:14px;background:#111}
+    .review{background:linear-gradient(110deg,#fff8d9,#ffe47a);border:1px solid #b88a1d77;border-radius:18px;padding:25px;display:flex;justify-content:space-between;align-items:center;gap:20px;box-shadow:0 12px 32px #79580018}
+    footer{padding:28px 0;border-top:1px solid #b88a1d66;color:#514318;font-size:13px;background:#fff4bd}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .float{position:fixed;right:18px;bottom:18px;z-index:30;display:flex;flex-direction:column;gap:9px}.float a{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-size:23px;box-shadow:0 8px 25px #0008}.call{background:#1678ff}.wa{background:#13b96b}
+    @media(max-width:850px){nav{display:none}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding-top:48px}.hero-card{max-width:520px;margin:auto}.services{grid-template-columns:repeat(2,1fr)}.feature-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:520px){.services{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}.brand{font-size:14px}.brand img{width:43px;height:43px}.hero-actions .btn{width:100%}.review{align-items:flex-start;flex-direction:column}.hero-card{padding:18px}}
+  </style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home"><img src="assets/shop-logo.jpg" alt="Shree Photo State logo"><span>SHREE PHOTO STATE &amp; CSC<small>PHOTO • PRINT • DIGITAL SEVA</small></span></a>
+    <nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#location">Location</a><a href="#inquiry">Inquiry</a></nav>
+    <a class="btn" href="tel:+919554842745">☎ Call Now</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Your Local Digital Seva &amp; Photo Center</div>
+        <h1 style="color: rgba(243, 6, 26, 0.932);">आपकी हर डिजिटल ज़रूरत का <span style="color: rgb(243, 7, 7);">एक ही स्थान</span></h1>
+        <p class="lead">Photo, photocopy, printing, online forms और CSC digital services — भरोसेमंद सहायता के साथ। आइए, Badhouli Chowk पर हमसे मिलें।</>
+        <div class="hero-actions">
+          <a class="btn" href="#services">सभी सेवाएँ देखें ↗</a>
+          <a class="btn outline" href="https://wa.me/919651948928?text=Namaste%20Shree%20Photo%20State%20%26%20CSC%2C%20mujhe%20service%20ki%20jankari%20chahiye." target="_blank" rel="noopener">WhatsApp Inquiry</a>
+        </div>
+        <div class="trust"><span>CSC Digital Services</span><span>Photo &amp; Printing</span><span>Online Form Support</span></div>
+      </div>
+      <div class="hero-card">
+        <img class="main-logo" src="assets/shop-logo.jpg" alt="Shree Photo State shop logo">
+        <div class="logo-row">s
+          <img src="assets/csc-digital.jpg" alt="Common Services Centre Digital India logo">
+          <img src="assets/csc-egov.png" alt="CSC e-Governance Services India Limited logo">
+        </div>
+        <div class="id-chip">CSC CENTER ID &nbsp; <strong>373574110017</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">What We Offer</div><h2 style="color: rgb(252, 5, 5);">हमारी सेवाएँ</h2><p>एक ही जगह पर फोटो, प्रिंटिंग, ऑनलाइन आवेदन और डिजिटल सहायता। सेवा की उपलब्धता एवं शुल्क के लिए संपर्क करें।</p></div>
+      <div class="services">
+        <article class="service"><div class="ico">📄</div><h3>Photocopy &amp; Xerox</h3><p>Black &amp; white तथा colour photocopy, document copy और scan।</p></article>
+        <article class="service"><div class="ico">🖨️</div><h3>Printout &amp; Printing</h3><p>Colour print, B/W print, PDF print, document और photo print।</p></article>
+        <article class="service"><div class="ico">🪪</div><h3>Passport Size Photo</h3><p>Passport, visa, ID card और application के लिए photo।</p></article>
+        <article class="service"><div class="ico">🖼️</div><h3>Photo Editing</h3><p>Photo resize, background change, enhancement और digital image।</p></article>
+        <article class="service"><div class="ico">🧾</div><h3>Online Form &amp; Registration</h3><p>सरकारी/प्राइवेट भर्ती, admission, exam और अन्य online forms।</p></article>
+        <article class="service"><div class="ico">🪪</div><h3>Aadhaar Related Assistance</h3><p>उपलब्ध अधिकृत सेवाओं के अनुसार Aadhaar update guidance/print और संबंधित सहायता।</p></article>
+        <article class="service"><div class="ico">💳</div><h3>Aadhaar Enabled Payments</h3><p>AEPS/आधार आधारित भुगतान एवं बैंकिंग सहायता — सेवा उपलब्धता के अनुसार।</p></article>
+        <article class="service"><div class="ico">🏦</div><h3>Banking &amp; Digital Payments</h3><p>CSC के माध्यम से उपलब्ध banking, payment और financial inclusion सेवाएँ।</p></article>
+        <article class="service"><div class="ico">💡</div><h3>Bill Payments &amp; Recharge</h3><p>बिजली/अन्य utility bill payment, mobile/DTH recharge जहाँ उपलब्ध हो।</p></article>
+        <article class="service"><div class="ico">📜</div><h3>Certificate &amp; सरकारी सेवाएँ</h3><p>आय, जाति, निवास एवं अन्य प्रमाणपत्र आवेदन में सहायता, जहाँ लागू हो।</p></article>
+        <article class="service"><div class="ico">🎓</div><h3>Education &amp; Exam Services</h3><p>Scholarship, admission, admit card, result और exam form सहायता।</p></article>
+        <article class="service"><div class="ico">🛂</div><h3>PAN &amp; अन्य आवेदन</h3><p>PAN application assistance तथा अन्य उपलब्ध citizen services।</p></article>
+        <article class="service"><div class="ico">📠</div><h3>Scanning &amp; Document Work</h3><p>Document scan, PDF बनाना, merge, compress और email support।</p></article>
+        <article class="service"><div class="ico">📝</div><h3>Typing &amp; Application</h3><p>Hindi/English typing, application, resume और document formatting।</p></article>
+        <article class="service"><div class="ico">🌐</div><h3>Internet &amp; Email Services</h3><p>Email, online submission, document upload और internet assistance।</p></article>
+        <article class="service"><div class="ico">🛍️</div><h3>Other CSC Services</h3><p>Insurance, pension, travel और अन्य CSC services, अधिकृत उपलब्धता के अनुसार।</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container feature-grid">
+      <div class="feature"><strong>CSC Center</strong><span>Center ID: 373574110017</span></div>
+      <div class="feature"><strong>Photo &amp; Print</strong><span>Daily document solutions</span></div>
+      <div class="feature"><strong>Easy Contact</strong><span>Call &amp; WhatsApp support</span></div>
+      <div class="feature"><strong>Local Service</strong><span>Badhouli Chowk, Robertsganj</span></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="glass">
+        <div class="eyebrow">About Our Shop</div><h3>Shree Photo State &amp; CSC</h3>
+        <p class="muted">हमारा उद्देश्य ग्राहकों को photo state, printing, online application और CSC से जुड़ी उपलब्ध डिजिटल सेवाएँ एक ही स्थान पर उपलब्ध कराना है। किसी भी सरकारी/वित्तीय सेवा का लाभ संबंधित नियमों, पात्रता और अधिकृत सेवा उपलब्धता के अनुसार दिया जाता है।</p>
+        <p><strong>CSC ID:</strong> 373574110017</p>
+        <p><strong>पता:</strong> Badhouli Chowk, Robertsganj, Sonbhadra, Uttar Pradesh – 231216</p>
+      </div>
+      <div class="glass">
+        <h3>Our Identity</h3>
+        <div class="brand-logos">
+          <img src="assets/csc-digital.jpg" alt="CSC Digital India Common Services Center">
+          <img src="assets/csc-egov.png" alt="CSC e-Governance Services India Limited">
+          <img src="assets/shop-logo.jpg" alt="Shree Photo State logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="location">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Visit Us</div><h2 style="color: rgb(255, 0, 0);">हमारी दुकान का पता</h2><p>Badhouli Chowk, Robertsganj, Sonbhadra, Uttar Pradesh 231216</p></div>
+      <div class="contact-grid">
+        <div class="glass">
+          <div class="contact-line"><span>📍</span><div><b>Shop Location</b><small>Badhouli Chowk, Robertsganj, Sonbhadra, UP – 231216</small></div></div>
+          <div class="contact-line"><span>🧭</span><div><b>Google Maps Plus Code</b><small>M3M7+6F Robertsganj, Uttar Pradesh</small></div></div>
+          <div class="contact-line"><span>📞</span><div><b>Mobile</b><small><a href="tel:+919554842745">9554842745</a></small></div></div>
+          <div class="contact-line"><span>💬</span><div><b>WhatsApp</b><small><a href="https://wa.me/919651948928" target="_blank" rel="noopener">9651948928</a></small></div></div>
+          <div class="contact-line"><span>✉️</span><div><b>Email</b><small><a href="mailto:shreephoto108@gmail.com">shreephoto108@gmail.com</a></small></div></div>
+          <a class="btn" href="https://www.google.com/maps/place/Shree+photo+state+csc/@24.6830982,83.0637119,17z/" target="_blank" rel="noopener">Google Maps पर रास्ता देखें ↗</a>
+        </div>
+        <div class="glass">
+          <iframe class="mapbox" title="Shree Photo State & CSC map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=24.6830982,83.0637119&z=16&output=embed"></iframe>
+          <p class="form-note">Map में दुकान की location देखने के लिए map खोलें।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container review">
+      <div><div class="eyebrow">Your Feedback Matters</div><h2 style="margin:5px 0">हमारे Google पर Review दें</h2><div class="muted">आपका feedback हमारे business को आगे बढ़ाने में मदद करता है।</div></div>
+      <a class="btn" href="https://www.google.com/maps/place/Shree+photo+state+csc/@24.6830982,83.0637119,17z/data=!4m18!1m9!3m8!1s0x398ef97de1bf6db7:0xcdce449e8095a3fd!2sShree+photo+state+csc!8m2!3d24.6830982!4d83.0637119!9m1!1b1!16s%2Fg%2F11nhg9t1qc!3m7!1s0x398ef97de1bf6db7:0xcdce449e8095a3fd!8m2!3d24.6830982!4d83.0637119!9m1!1b1!16s%2Fg%2F11nhg9t1qc?entry=ttu&amp;g_ep=EgoyMDI2MTEwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">⭐ Write a Google Review</a>
+    </div>
+  </section>
+
+  <section id="inquiry">
+    <div class="container">
+      <div class="section-head"><div class="eyebrow">Get In Touch</div><h2>Inquiry Form</h2><p>अपनी जरूरत बताएं। Submit करने पर आपके WhatsApp में message तैयार हो जाएगा।</p></div>
+      <div class="contact-grid">
+        <div class="glass">
+          <h3>अपनी Inquiry भेजें</h3>
+          <form style="color: rgb(255, 0, 0);" id ="inquiryForm">
+            <label>आपका नाम<input id="customerName" name="name" placeholder="अपना नाम लिखें" required></label>
+            <label>Mobile Number<input id="customerPhone" name="phone" type="tel" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10 digit mobile number" required></label>
+            <label>कौन-सी Service चाहिए?
+              <select id="serviceName" name="service" required>
+                <option value="">Service चुनें</option>
+                <option>Photocopy / Xerox</option><option>Printout / Colour Print</option><option>Passport Size Photo</option><option>Photo Editing</option><option>Online Form / Registration</option><option>Aadhaar Related Assistance</option><option>AEPS / Banking / Payment</option><option>Bill Payment / Recharge</option><option>Certificate Application</option><option>PAN / Other CSC Service</option><option>Scanning / Typing / PDF</option><option>Other Service</option>
+              </select>
+            </label>
+            <label>Message<textarea id="customerMessage" name="message" placeholder="अपनी जरूरत या सवाल लिखें..."></textarea></label>
+            <button class="btn" type="submit">WhatsApp पर Inquiry भेजें ↗</button>
+            <p class="form-note">यह form आपके WhatsApp app/site में message खोलेगा। कोई जानकारी इस webpage पर store नहीं होती।</p>
+          </form>
+        </div>
+        <div class="glass">
+          <h3>सीधे संपर्क करें</h3>
+          <p class="muted">किसी भी service, शुल्क या आवश्यक documents की जानकारी के लिए फोन या WhatsApp करें।</p>
+          <p>📞 <strong>Mobile:</strong> <a href="tel:+919554842745">9554842745</a></p>
+          <p>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/919651948928" target="_blank" rel="noopener">9651948928</a></p>
+          <p>✉️ <strong>Email:</strong> <a href="mailto:shreephoto108@gmail.com">shreephoto108@gmail.com</a></p>
+          <p>🪪 <strong>CSC ID:</strong> 373574110017</p>
+          <hr style="border:0;border-top:1px solid var(--line);margin:22px 0">
+          <a class="btn outline" href="mailto:shreephoto108@gmail.com?subject=Service%20Inquiry">Email से संपर्क करें</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container foot"><span>© <span id="year"></span> Shree Photo State &amp; CSC. All Rights Reserved.</span><span>Made for Digital Seva • Robertsganj, Sonbhadra</span></div>
+</footer>
+<div class="float"><a class="wa" href="https://wa.me/919651948928" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a><a class="call" href="tel:+919554842745" aria-label="Call">☎</a></div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('inquiryForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('customerName').value.trim();
+    const phone = document.getElementById('customerPhone').value.trim();
+    const service = document.getElementById('serviceName').value;
+    const message = document.getElementById('customerMessage').value.trim();
+    if(!/^[0-9]{10}$/.test(phone)){ alert('कृपया 10 अंकों का सही mobile number लिखें।'); return; }
+    const body = `Namaste Shree Photo State & CSC,%0A%0AMera naam: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0AMessage: ${encodeURIComponent(message || 'Please contact me.')}`;
+    window.open('https://wa.me/919651948928?text=' + body, '_blank', 'noopener');
+  });
+</script>
+</body>
+</html>
